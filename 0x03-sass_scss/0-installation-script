@@ -1,0 +1,4 @@
+Installed with Terminal
+using Node.js, installed Sass using (npm) by running
+
+sudo npm install -g sass
