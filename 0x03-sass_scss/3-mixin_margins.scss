@@ -1,0 +1,16 @@
+@function more-value($num){
+    @return $num + 5
+}
+
+@mixin margin($value: 10px) {
+    margin-left: $value;
+    margin-right: $value;
+}
+
+body {
+    @include margin;
+
+    div {
+          @include margin($value + $num)
+    }
+}
