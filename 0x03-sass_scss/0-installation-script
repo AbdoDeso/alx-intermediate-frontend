@@ -4,4 +4,5 @@ using Node.js, install Sass using (npm) by running
 sudo npm install -g sass
 
 build cmd
+
 sass "fileName".scss output.css
