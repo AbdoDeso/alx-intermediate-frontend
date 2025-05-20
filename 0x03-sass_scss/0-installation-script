@@ -1,5 +1,5 @@
 open Terminal
-using Node.js, installed Sass using (npm) by running
+using Node.js, install Sass using (npm) by running
 
 sudo npm install -g sass
 
