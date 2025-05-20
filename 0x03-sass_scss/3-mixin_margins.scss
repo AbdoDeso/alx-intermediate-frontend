@@ -1,16 +1,16 @@
-@function more-value($num){
-    @return $num + 5
-}
 
 @mixin margin($value: 10px) {
     margin-left: $value;
     margin-right: $value;
+    padding: $value;
 }
 
 body {
     @include margin;
-
+    background-color: black;
     div {
-          @include margin($value + $num)
+          @include margin($value: 15px);
+          
+          background-color: red;
     }
 }
