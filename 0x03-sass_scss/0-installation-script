@@ -1,4 +1,7 @@
-Installed with Terminal
+open Terminal
 using Node.js, installed Sass using (npm) by running
 
 sudo npm install -g sass
+
+build cmd
+sass "fileName".scss output.css
